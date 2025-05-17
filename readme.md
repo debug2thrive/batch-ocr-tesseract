@@ -44,7 +44,7 @@ https://github.com/tesseract-ocr/tessdoc/tree/main#binaries
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Usage
-Place your input images inside the input directory.
+Place your input images inside the images directory.
 
 # Run the script:
 python batch_ocr.py
