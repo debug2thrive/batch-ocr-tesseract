@@ -43,7 +43,13 @@ https://github.com/tesseract-ocr/tessdoc/tree/main#binaries
 ⚠️ On Windows, update the path in batch_ocr.py:
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
+# Usage
+Place your input images inside the input directory.
 
+# Run the script:
+python batch_ocr.py
+Output .txt files will be saved in the output folder.
 
+Filenames will match the original images.
 
-
+The script prints a summary of successes and errors.
