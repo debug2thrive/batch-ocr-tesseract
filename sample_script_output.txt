@@ -1,0 +1,33 @@
+Microsoft Windows [Version 10.0.26100.3775]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\wizz\py_tesseract>python -m venv example
+
+D:\wizz\py_tesseract>example\Scripts\activate
+
+(example) D:\wizz\py_tesseract>pip install pytesseract Pillow
+Collecting pytesseract
+  Obtaining dependency information for pytesseract from https://files.pythonhosted.org/packages/7a/33/8312d7ce74670c9d39a532b2c246a853861120486be9443eebf048043637/pytesseract-0.3.13-py3-none-any.whl.metadata
+  Downloading pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+Collecting Pillow
+  Obtaining dependency information for Pillow from https://files.pythonhosted.org/packages/e2/72/25a8f40170dc262e86e90f37cb72cb3de5e307f75bf4b02535a61afcd519/pillow-11.2.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading pillow-11.2.1-cp311-cp311-win_amd64.whl.metadata (9.1 kB)
+Collecting packaging>=21.3 (from pytesseract)
+  Obtaining dependency information for packaging>=21.3 from https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl.metadata
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading pytesseract-0.3.13-py3-none-any.whl (14 kB)
+Downloading pillow-11.2.1-cp311-cp311-win_amd64.whl (2.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.7/2.7 MB 4.4 MB/s eta 0:00:00
+Downloading packaging-25.0-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.5/66.5 kB 3.7 MB/s eta 0:00:00
+Installing collected packages: Pillow, packaging, pytesseract
+Successfully installed Pillow-11.2.1 packaging-25.0 pytesseract-0.3.13
+
+[notice] A new release of pip is available: 23.2.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(example) D:\wizz\py_tesseract\src>python batch_ocr.py
+✅ Processed: Screenshot_2025-05-09-23-29-38-788_com.linkedin.android.jpg → ocr_output\Screenshot_2025-05-09-23-29-38-788_com.linkedin.android.txt
+✅ Processed: Screenshot_2025-05-12-18-52-02-712_com.whatsapp.jpg → ocr_output\Screenshot_2025-05-12-18-52-02-712_com.whatsapp.txt
+
+Summary: 2/2 files processed successfully, 0 failed.

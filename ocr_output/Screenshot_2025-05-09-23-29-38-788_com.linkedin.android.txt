@@ -1,0 +1,13 @@
+11:29 @&--- ¥ ul S GD
+
+— Break them. Debug them. Make them production-ready.
+— After learning something, use it in a project or teach it to someone.
+
+Your growth as a data engineer won't come from watching videos.
+It'll come from understanding where pipelines break at 2 AM.
+From figuring out why joins fail, why jobs lag, and how to fix them.
+
+Don’t chase surface-level “learning.”
+Build real skills by doing the hard, boring, practical stuff.
+
+That’s what sets good engineers apart from great ones.
